@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    app:cardCornerRadius="20dp"
+
+    android:clipToPadding="false"
+    android:clipChildren="false"
+    android:layout_margin="8dp"
+    app:cardElevation="10dp"
+    android:backgroundTint="@color/colorEndBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_banck"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_gravity="center"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:gravity="center"
+         >
+
+            <com.blogspot.atifsoftwares.circularimageview.CircularImageView
+                android:id="@+id/imageGuide"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                app:c_border="true"
+                app:c_border_color="#089a74"
+
+                app:c_border_width="1dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="12">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="9"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/lastfirstname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:paddingBottom="2dp"
+
+                    android:textColor="@color/black"
+                    android:textAlignment="textStart"
+                    android:paddingStart="5dp"
+
+                    />
+                <TextView
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:paddingStart="5dp"
+                    android:paddingBottom="2dp"
+
+                    android:textColor="@color/text_bank"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:textSize="13sp"
+                    />
+                <TextView
+
+                    android:paddingStart="5dp"
+                    android:textAlignment="textStart"
+                    android:id="@+id/tel"
+                    android:paddingBottom="2dp"
+
+                    android:textColor="@color/text_bank"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="13sp"/>
+                <TextView
+
+                    android:paddingStart="5dp"
+                    android:textAlignment="textStart"
+                    android:id="@+id/desc"
+                    android:paddingBottom="2dp"
+
+                    android:textStyle="italic"
+                    android:textColor="@color/text_bank"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"/>
+
+
+
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/callguide"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:padding="15dp"
+                android:src="@drawable/call_24"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

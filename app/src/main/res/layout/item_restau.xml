@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="#fffde5"
+    app:cardCornerRadius="20dp"
+    android:layout_marginTop="15dp"
+    android:layout_margin="5dp"
+    app:cardElevation="35dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:clipToPadding="false"
+    android:clipChildren="false"
+    android:layout_marginBottom="5dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="5dp"
+
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:id="@+id/restau_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/back_name"
+                    android:gravity="center"
+                    android:text="fsgfsgsf"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:textSize="20sp"
+
+                    android:fontFamily="@font/roboto_bold"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/restau_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/restau_name"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/location_on_24" />
+                <ImageView
+                    android:id="@+id/restau_call"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/restau_name"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/call_24" />
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+
+            >
+
+            <androidx.viewpager.widget.ViewPager
+
+                android:id="@+id/scrollimages"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+
+
+                >
+
+            </androidx.viewpager.widget.ViewPager>
+            <TextView
+                android:id="@+id/txtnum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_alignBottom="@id/scrollimages"
+                android:gravity="bottom"
+                android:textStyle="normal"
+                android:textSize="12sp"
+
+                android:textColor="@color/white" ></TextView>
+
+
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

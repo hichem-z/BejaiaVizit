@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary2">#FFE53B</color>
+    <color name="primary1">#00815F</color>
+    <color name="purple_200">#FFE53B</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="second">#fffde5</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="colorPrimary">#fcffc4</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="colorItem1Start">#FEBD1B</color>
+    <color name="colorItem1End">#E4A401</color>
+
+    <color name="colorItem2Start">#4D79FF</color>
+    <color name="colorItem2End">#0039E6</color>
+
+    <color name="colorItem3Start">#993399</color>
+    <color name="colorItem3End">#602060</color>
+
+    <color name="colorItem4Start">#00B33C</color>
+    <color name="colorItem4End">#006622</color>
+
+    <color name="colorEndBackground">#50FFFFFF</color>
+
+    <color name="colorLightText">#ECECEC</color>
+    <color name="colorGray1">#C0B6B6</color>
+
+    <color name="text_bank">#909090</color>
+
+    <color name="name_l">#fff</color>
+    <color name="date_l">#bcbece</color>
+    <color name="text_l">#bcdece</color>
+
+    <color name="border">#eeebef</color>
+</resources>

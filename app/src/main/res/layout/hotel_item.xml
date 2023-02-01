@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="25dp"
+
+    android:layout_margin="15dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="166dp"
+            android:layout_weight="1">
+
+
+            <ImageView
+                android:id="@+id/imageHotel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:scaleType="center" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/back_item_hotel"
+                android:layout_alignBottom="@+id/imageHotel"
+
+
+                >
+                <TextView
+                    android:id="@+id/holtel_name"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:background="@drawable/back_name"
+                    android:textColorHint="@color/black"
+                    android:textAlignment="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    />
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
